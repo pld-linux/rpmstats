@@ -3,11 +3,11 @@ Summary(pl):	Zbieranie statystyk z zainstalowanych pakietów
 Name:		rpmstats
 Version:	0.4
 Release:	1
-Source0:	%{name}-%{version}.tar.bz2
-# Source0-md5:	87552e75254ea73ef569f22472d888a6
 License:	GPL
 Group:		Applications/System
-BuildRequires:	rpm-devel
+Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	87552e75254ea73ef569f22472d888a6
+BuildRequires:	rpm-devel >= 4.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -29,6 +29,7 @@ CPPFLAGS="%{rpmcflags} -DRPM_42"
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	bindir=$RPM_BUILD_ROOT%{_bindir} \
 	libexecdir=$RPM_BUILD_ROOT%{_libdir} \
