@@ -7,6 +7,8 @@ License:	GPL
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	87552e75254ea73ef569f22472d888a6
+BuildRequires:	autoconf
+BuildRequires:	automake
 BuildRequires:	rpm-devel >= 4.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
