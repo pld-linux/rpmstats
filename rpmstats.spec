@@ -4,6 +4,7 @@ Name:		rpmstats
 Version:	0.4
 Release:	1
 Source0:	%{name}-%{version}.tar.bz2
+# Source0-md5:	87552e75254ea73ef569f22472d888a6
 License:	GPL
 Group:		Applications/System
 BuildRequires:	rpm-devel
