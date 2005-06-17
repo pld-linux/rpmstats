@@ -2,7 +2,7 @@ Summary:	Gather statistics from installed packages
 Summary(pl):	Zbieranie statystyk z zainstalowanych pakietów
 Name:		rpmstats
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.bz2
