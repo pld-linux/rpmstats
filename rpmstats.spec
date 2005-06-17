@@ -2,14 +2,14 @@ Summary:	Gather statistics from installed packages
 Summary(pl):	Zbieranie statystyk z zainstalowanych pakietów
 Name:		rpmstats
 Version:	0.4
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/System
 Source0:	%{name}-%{version}.tar.bz2
 # Source0-md5:	87552e75254ea73ef569f22472d888a6
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	rpm-devel >= 4.2
+BuildRequires:	rpm-devel >= 4.4.1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
