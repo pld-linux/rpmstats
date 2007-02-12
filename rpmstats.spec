@@ -1,5 +1,5 @@
 Summary:	Gather statistics from installed packages
-Summary(pl.UTF-8):   Zbieranie statystyk z zainstalowanych pakietów
+Summary(pl.UTF-8):	Zbieranie statystyk z zainstalowanych pakietów
 Name:		rpmstats
 Version:	0.4
 Release:	3
