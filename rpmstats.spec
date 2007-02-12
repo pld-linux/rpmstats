@@ -1,5 +1,5 @@
 Summary:	Gather statistics from installed packages
-Summary(pl):	Zbieranie statystyk z zainstalowanych pakietÛw
+Summary(pl.UTF-8):   Zbieranie statystyk z zainstalowanych pakiet√≥w
 Name:		rpmstats
 Version:	0.4
 Release:	3
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 rpmstats retrieves statistics about installed packages.
 
-%description -l pl
-rpmstats zbiera statystyki ostatniego uøycia z zainstalowanych
-pakietÛw.
+%description -l pl.UTF-8
+rpmstats zbiera statystyki ostatniego u≈ºycia z zainstalowanych
+pakiet√≥w.
 
 %prep
 %setup -q
